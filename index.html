@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boeing 747</title>
+    <style>
+        body {
+            background-color: #a2d5e0; 
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            color: #4f6d7a; 
+            font-size: 80px;
+            animation: fadeIn 1s;
+        }
+
+        img {
+            width: 300px;
+            height: auto;
+            margin: 15px;
+            border-radius: 15px; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+            transition: transform 0.3s; 
+        }
+
+        img:hover {
+            transform: scale(1.05); 
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            animation: fadeIn 1s 0.5s; 
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4f6d7a; 
+            color: white;
+            animation: fadeIn 1s 0.5s; 
+        }
+
+        tr:hover {
+            background-color: #e7f6f2; 
+        }
+
+       
+        .button {
+            display: inline-block;
+            padding: 20px 40px; 
+            margin: 20px;
+            background-color: #ff6f61; 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 10px; 
+            transition: background-color 0.3s, transform 0.3s;
+            font-size: 20px; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+        }
+
+        .button:hover {
+            background-color: #ff4b3a; 
+            transform: scale(1.05); 
+        }
+
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Algoritmy a Boeing 747</h1>
+
+        <div class="image-gallery">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/British_Airways_G-BNLU-2008-09-13-YVR.jpg/1200px-British_Airways_G-BNLU-2008-09-13-YVR.jpg" alt="Boeing 747 - British Airways" title="boeing747">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Lufthansa_Boeing_747-830_KvW-1.jpg/640px-Lufthansa_Boeing_747-830_KvW-1.jpg" alt="Boeing 747 - Lufthansa" title="boeing747">
+            <img src="https://mvf.ams3.digitaloceanspaces.com/wp-content/uploads/2021/08/29001334/regnum_picture_1511322258474295_normal.jpg" alt="Boeing 747" title="boeing747">
+        </div>
+
+        <p><strong>Charakteristiky Boeing747:</strong></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>dĺžka</th>
+                    <th>Rozpätie krídel</th>
+                    <th>Šírka trupu</th>
+                    <th>Výška</th>
+                    <th>Oblasť krídla</th>
+                    <th>Prázdna váha</th>
+                    <th>Maximálna vzletová hmotnosť</th>
+                    <th>Maximálna rýchlosť</th>
+                    <th>Dosah s maximálnym zaťažením</th>
+                    <th>Rezerva paliva</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>70,6m</td>
+                    <td>59,6m</td>
+                    <td>6,5m</td>
+                    <td>19,3m</td>
+                    <td>511m²</td>
+                    <td>162,4t</td>
+                    <td>340,2t</td>
+                    <td>m=0,84</td>
+                    <td>8500km</td>
+                    <td>183380 l</td>
+                </tr>
+            </tbody>
+        </table>
+
+        
+        <div>
+            <a href="zaujimave_fakty.html" class="button">Zaujímavé fakty</a>
+            <a href="moje_algoritmy.html" class="button">Moje algoritmy</a>
+            <a href="text-boeing747.html" class="button">Text boeing747</a>
+        </div>
+    </div>
+</body>
+
+</html>
+
